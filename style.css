@@ -1,0 +1,14 @@
+/* Custom styles for your extension */
+
+.simple-tester_block {
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between checkbox and label */
+}
+
+.simple-tester_block label {
+    margin-bottom: 0; /* Override default label margin */
+    font-weight: bold;
+}
